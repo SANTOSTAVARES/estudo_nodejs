@@ -30,9 +30,9 @@ if (idadeComprador >= 18 || estaAcompanhada == true) {
 }
 
 console.log("Embarque: \n\n")
-if(idadeComprador >= 18 && temPassagemComprada){
+if (idadeComprador >= 18 && temPassagemComprada) {
     console.log("Boa viagem");
-}else{
+} else {
     console.log("Você não pode embarcar");
 }
 
@@ -44,3 +44,6 @@ console.log(idadeComprador < 18);
 console.log(idadeComprador <= 18);
 console.log(idadeComprador >= 18);
 console.log(idadeComprador == 18);
+//Operadores lógicos AND e OR 
+console.log(idadeComprador > 15 && idadeComprador < 25);
+console.log(idadeComprador > 15 && idadeComprador < 25 || idadeComprador > 70);
